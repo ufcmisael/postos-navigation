@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ajudante de Posto</string>
+    <string name="welcome_message">Bem-vindos ao Navigation Example!</string>
+    <string name="input_label">Digite algo</string>
+    <string name="next_screen">Ir para a próxima tela</string>
+    <string name="price_alcohol">Preço do Álcool (R$)</string>
+    <string name="price_gasoline">Preço da Gasolina (R$)</string>
+    <string name="station_name">Nome do Posto (Opcional)</string>
+    <string name="calculate_save">Calcular e Salvar</string>
+    <string name="best_alcohol">Abasteça com Álcool</string>
+    <string name="best_gasoline">Abasteça com Gasolina</string>
+    <string name="list_title">Lista de Postos</string>
+    <string name="welcome_img_desc">Imagem de boas-vindas. Clique para começar.</string>
+    <string name="initial_result">Vamos Calcular?</string>
+    <string name="default_station_name">Posto Atual</string>
+    <string name="new_station_name">Novo Posto</string>
+    <string name="btn_view_list">Ver Lista</string>
+    <string name="error_invalid_prices">Preencha os preços corretamente!</string>
+    <string name="error_gps_permission">Dê permissão de GPS nas configurações!</string>
+    <string name="price_label">Álcool: R$ %1$.2f | Gas: R$ %2$.2f</string>
+    <string name="recommendation_label">Melhor: %s</string>
+    <string name="delete_confirm">Excluir Posto?</string>
+    <string name="res_label">Melhor: %s</string>
+</resources>

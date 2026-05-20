@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fuel Helper</string>
+    <string name="welcome_message">Welcome to Navigation Example!</string>
+    <string name="input_label">Type something</string>
+    <string name="next_screen">Go to next screen</string>
+    <string name="price_alcohol">Alcohol Price (R$)</string>
+    <string name="price_gasoline">Gasoline Price (R$)</string>
+    <string name="station_name">Station Name (Optional)</string>
+    <string name="calculate_save">Calculate and Save</string>
+    <string name="best_alcohol">Alcohol is better</string>
+    <string name="best_gasoline">Gasoline is better</string>
+    <string name="list_title">Stations List</string>
+    <string name="welcome_img_desc">Welcome image. Click to start.</string>
+    <string name="initial_result">Ready to calculate?</string>
+    <string name="default_station_name">Current Station</string>
+    <string name="new_station_name">New Station</string>
+    <string name="btn_view_list">View List</string>
+    <string name="error_invalid_prices">Fill in the prices correctly!</string>
+    <string name="error_gps_permission">Grant GPS permission in settings!</string>
+    <string name="price_label">Alc: R$ %1$.2f | Gas: R$ %2$.2f</string>
+    <string name="recommendation_label">Best: %s</string>
+    <string name="delete_confirm">Delete Station?</string>
+    <string name="res_label">Best: %s</string>
+</resources>
