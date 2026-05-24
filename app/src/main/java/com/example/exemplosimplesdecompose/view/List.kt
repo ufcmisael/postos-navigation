@@ -83,12 +83,12 @@ fun ListaDePostos(navController: NavHostController, nomeDoPosto: String) {
                         // LÓGICA DA RECOMENDAÇÃO (Qual é vantajoso?)
                         val proporcao = item.precoAlcool / item.precoGasolina
                         val recomendacao = if (proporcao <= 0.75)
-                            stringResource(id = R.string.best_alcohol)
+                            stringResource(id = R.string.best_alcohol, item.nome)
                         else
-                            stringResource(id = R.string.best_gasoline)
+                            stringResource(id = R.string.best_gasoline, item.nome)
 
                         Text(
-                            text = stringResource(id = R.string.res_label, recomendacao),
+                            text = recomendacao,
                             color = MaterialTheme.colorScheme.primary,
                             style = MaterialTheme.typography.bodyLarge
                         )
@@ -100,15 +100,15 @@ fun ListaDePostos(navController: NavHostController, nomeDoPosto: String) {
                                 val uri = Uri.parse("geo:${item.coordenadas.latitude},${item.coordenadas.longitude}?q=${item.coordenadas.latitude},${item.coordenadas.longitude}(${item.nome})")
                                 context.startActivity(Intent(Intent.ACTION_VIEW, uri).setPackage("com.google.android.apps.maps"))
                             }) {
-                                Icon(Icons.Default.Place, contentDescription = "Mapa")
+                                Icon(Icons.Default.Place, contentDescription = stringResource(id = R.string.desc_map, item.nome))
                             }
 
-                            // EDITAR (Update) - Volta para a tela de cálculo com os dados
+                            // EDITAR (Update) - Volta para a tela de cálculo com os dadosw
                             IconButton(onClick = {
                                 // Aqui você navegaria de volta passando o ID ou os dados para preencher o formulário
                                 navController.navigate("mainalcgas?editId=${item.id}")
                             }) {
-                                Icon(Icons.Default.Edit, contentDescription = "Editar")
+                                Icon(Icons.Default.Edit, contentDescription = stringResource(id = R.string.desc_edit, item.nome))
                             }
 
                             // DELETAR (Delete)
@@ -116,7 +116,7 @@ fun ListaDePostos(navController: NavHostController, nomeDoPosto: String) {
                                 PostoRepository.deletePosto(context, item.id)
                                 postos.remove(item)
                             }) {
-                                Icon(Icons.Default.Delete, contentDescription = "Deletar", tint = Color.Red)
+                                Icon(Icons.Default.Delete, contentDescription = stringResource(id = R.string.desc_delete, item.nome), tint = Color.Red)
                             }
                         }
                     }

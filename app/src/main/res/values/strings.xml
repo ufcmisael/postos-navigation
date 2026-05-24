@@ -7,8 +7,8 @@
     <string name="price_gasoline">Preço da Gasolina (R$)</string>
     <string name="station_name">Nome do Posto (Opcional)</string>
     <string name="calculate_save">Calcular e Salvar</string>
-    <string name="best_alcohol">Abasteça com Álcool</string>
-    <string name="best_gasoline">Abasteça com Gasolina</string>
+    <string name="best_alcohol">%s: Abasteça com Álcool</string>
+    <string name="best_gasoline">%s: Abasteça com Gasolina</string>
     <string name="list_title">Lista de Postos</string>
     <string name="welcome_img_desc">Imagem de boas-vindas. Clique para começar.</string>
     <string name="initial_result">Vamos Calcular?</string>
@@ -21,4 +21,7 @@
     <string name="recommendation_label">Melhor: %s</string>
     <string name="delete_confirm">Excluir Posto?</string>
     <string name="res_label">Melhor: %s</string>
+    <string name="desc_map">Ver no mapa o posto %s</string>
+    <string name="desc_edit">Editar dados do posto %s</string>
+    <string name="desc_delete">Excluir posto %s</string>
 </resources>

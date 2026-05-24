@@ -7,8 +7,8 @@
     <string name="price_gasoline">Gasoline Price (R$)</string>
     <string name="station_name">Station Name (Optional)</string>
     <string name="calculate_save">Calculate and Save</string>
-    <string name="best_alcohol">Alcohol is better</string>
-    <string name="best_gasoline">Gasoline is better</string>
+    <string name="best_alcohol">%s: Alcohol is better</string>
+    <string name="best_gasoline">%s: Gasoline is better</string>
     <string name="list_title">Stations List</string>
     <string name="welcome_img_desc">Welcome image. Click to start.</string>
     <string name="initial_result">Ready to calculate?</string>
@@ -21,4 +21,7 @@
     <string name="recommendation_label">Best: %s</string>
     <string name="delete_confirm">Delete Station?</string>
     <string name="res_label">Best: %s</string>
+    <string name="desc_map">View %s on maps</string>
+    <string name="desc_edit">Edit %s data</string>
+    <string name="desc_delete">Delete %s</string>
 </resources>
