@@ -4,6 +4,11 @@
 
 https://github.com/user-attachments/assets/5f392223-6769-410b-8d5b-c6e2bfc5e54f
 
+### Ou pelo youtube: https://youtu.be/0GFd3uCtfcg
+
+[![assista no youTube](https://img.youtube.com/vi/0GFd3uCtfcg/0.jpg)](https://youtu.be/0GFd3uCtfcg)
+
+
 #### Abaixo está a minutagem das principais funcionalidades apresentadas no vídeo:
 
  **00:02** - Inicialização do app
